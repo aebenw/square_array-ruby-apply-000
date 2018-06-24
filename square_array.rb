@@ -1,4 +1,5 @@
 def square_array(array)
-  sqr = array.collect {|num| num ** 2}
-  sqr
+  array.collect do |num| 
+    num ** 2}
+  end
 end
