@@ -1,3 +1,4 @@
 def square_array(array)
-  array.map {|num| num ** 2}
+  sqr_arr = array.each {|num| num ** 2}
+  p sqr_arr
 end
