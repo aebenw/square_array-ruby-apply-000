@@ -1,6 +1,5 @@
 def square_array(array)
-
-  array.collect do |num| 
-    num ** 2
-  end
+sqr = []
+  array.map {|num| num ** 2}
+  sqr
 end
