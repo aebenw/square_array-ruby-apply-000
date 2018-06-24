@@ -1,3 +1,4 @@
 def square_array(array)
-  array.map {|num| num ** 2}
+  sqr = array.map {|num| num ** 2}
+  sqr
 end
